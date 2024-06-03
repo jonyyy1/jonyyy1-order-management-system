@@ -45,7 +45,18 @@ Un pedido tiene un cliente, una lista de productos y un total. Los productos y c
     ```sh
     cd order-management-system
     ```
-3. Construir y ejecutar los contenedores Docker:
+3. En caso no tengas instalado gradle 
+        
+     ```sh
+    brew install gradle
+    ```
+4. Una ves instalado gradle ejecutar el siguiente comando
+    ```sh
+      gradle wrapper
+    ```
+
+   
+5. Construir y ejecutar los contenedores Docker:
     ```sh
     docker-compose up --build
     ```
