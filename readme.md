@@ -54,9 +54,12 @@ Un pedido tiene un cliente, una lista de productos y un total. Los productos y c
     ```sh
       gradle wrapper
     ```
-
+5. Construir el proyecto con Gradle (sin ejecutar pruebas):
+    ```sh
+      ./gradlew build -x test
+    ```
    
-5. Construir y ejecutar los contenedores Docker:
+5. Ejecutar los contenedores Docker con Docker Compose:
     ```sh
     docker-compose up --build
     ```
