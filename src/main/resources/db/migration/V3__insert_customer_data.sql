@@ -1,0 +1,10 @@
+insert into customer values(1,'keola', 'direccion-1', 'email');
+insert into customer values(2,'luis', 'direccion0', 'email0');
+insert into customer values(3,'jose', 'direccion1', 'email1');
+insert into customer values(4,'maria', 'direccion2', 'email2');
+insert into customer values(5,'leonardo', 'direccion3', 'email3');
+insert into customer values(6,'jorge', 'direccion4', 'email4');
+insert into customer values(7,'antonella', 'direccion5', 'email5');
+insert into customer values(8,'janira', 'direccion6', 'email6');
+insert into customer values(9,'robins', 'direccion7', 'email7');
+insert into customer values(10,'lin', 'direccion8', 'email8');
